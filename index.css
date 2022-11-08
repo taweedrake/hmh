@@ -156,7 +156,30 @@ footer p{
 }
 
 
-
+.connect{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.connect p{
+    text-align: left;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+.connect ul{
+    display: flex;
+    gap: 1rem;
+}
+.connect ul li a{
+    color: rgb(143, 138, 138);
+    transition: .3s;
+    font-size: 1.2rem;
+}
+.connect ul li:hover {
+    transform: rotate(360deg);
+}
+.connect ul li a:hover{
+    color: lightblue;
+}
 
 
 
