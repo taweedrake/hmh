@@ -11,4 +11,8 @@ function hide() {
     showIcon.style.display = 'block';
     hideIcone.style.display = 'none';
 }
+function play() {
+    let video = document.querySelector('#logo');
+    video.play();
+}
 
