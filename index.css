@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
 header{
     display: flex;
     flex-direction: column;
@@ -194,7 +195,41 @@ footer p{
     color: lightblue;
 }
 
-
+.ad{
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    min-height: 10rem;
+    text-align: center;
+    background-color: rgba(0, 17, 255, 0.479);
+    padding: .5rem;
+    position: relative;
+}
+.ad h1{
+    font-size: 2.5rem;
+    font-family: 'Mr Dafoe', cursive;
+    color: rgb(12, 12, 12);
+}
+#up{
+    width: 100%;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+.up{
+    display: block;
+    width: 90%;
+    margin: auto;
+    padding: 1rem 2rem;
+    background:rgba(0, 38, 255, 0.952);
+    border: 1px solid lightblue;
+    border-radius: 10px;
+}
+.up a{
+    font-size: 2rem;
+    font-weight: 500;
+    color: white;
+}
 
 
 
@@ -233,6 +268,14 @@ footer p{
     .pic{
         text-align: center;
         flex-basis:60% ;
+    }
+    #up{
+        width: 500px;
+        height: 500px;
+        object-fit: cover;
+    }
+    .ad{
+        width: 50%;
     }
     
     
