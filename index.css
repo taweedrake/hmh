@@ -56,6 +56,7 @@ nav ul li a:hover{
 }
 .head{
     padding: 1rem;
+    margin-bottom: 1rem;
 }
 .head p{
     text-align: center;
@@ -69,6 +70,9 @@ nav ul li a:hover{
 .head small{
     font-style: italic;
     font-size: 1rem;
+}
+.a{
+    margin-left: 3rem;
 }
 
 .main{
@@ -197,7 +201,7 @@ footer p{
 }
 
 .ad{
-    width: 100%;
+    width: 98%;
     margin: auto;
     margin-top: 10px;
     border-radius: 10px;
@@ -205,7 +209,6 @@ footer p{
     text-align: center;
     background-color: rgba(0, 17, 255, 0.479);
     padding: .5rem;
-    position: relative;
 }
 .ad h1{
     font-size: 2.5rem;
@@ -320,5 +323,11 @@ footer p{
 @media (max-width:558px){
     .major{
         background-image: linear-gradient(rgba(0, 0, 0, 0.562),rgba(0, 0, 0, 0.664)),url(images/hmh.jpg);
+    }
+}
+
+@media (max-width:1033px) and (min-width:800px){
+    #up{
+        width: 100%;
     }
 }
