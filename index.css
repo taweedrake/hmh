@@ -214,20 +214,17 @@ footer p{
 }
 
 .ad{
-    width: 98%;
-    margin: auto;
-    margin-top: 10px;
-    border-radius: 10px;
-    min-height: 10rem;
+    height: 100%;
+    width: 100%;
     text-align: center;
-    /*background-color: rgba(0, 17, 255, 0.479);*/
-    padding: .5rem;
+    background-color:rgba(9, 47, 170, 0.74);
+    padding: 0 .5rem;
 }
 .ad h1{
     font-size: 2.5rem;
     font-family: 'Mr Dafoe', cursive;
-    color: rgb(12, 12, 12);
-    font-weight: 200;
+    color: wheat;
+    font-weight: 500;
 }
 #up{
     width: 100%;
@@ -238,7 +235,6 @@ footer p{
     display: block;
     width: 90%;
     margin: auto;
-    padding: 1rem 2rem;
     background:rgba(0, 38, 255, 0.952);
     border: 1px solid lightblue;
     border-radius: 10px;
@@ -254,6 +250,10 @@ footer p{
     font-size: 2rem;
     font-weight: 500;
     color: white;
+}
+.adword small{
+    color:orange;
+    font-size: 1rem;
 }
 
 
@@ -301,7 +301,25 @@ footer p{
         object-fit: cover;
     }
     .ad{
-        width: 50%;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        text-align: center;
+    }
+    .adin{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .ad h1{
+        margin-bottom: 10px;
+    }
+    .adword{
+        flex-basis: 50%;
+        align-items: center;
+    }
+    .adword p{
+        font-size: 2.5rem;
     }
     
     
