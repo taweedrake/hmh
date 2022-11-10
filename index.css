@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
 header{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     position: relative;
     background-color: rgb(8, 184, 253);
+    height: 162px;
 }
 
 #logo{
@@ -12,7 +15,6 @@ header{
     height: 8rem;
     object-fit: cover;
     border-radius: 5px;
-    margin-top: 1rem;
     
 }
 nav ul {
@@ -33,7 +35,7 @@ nav ul li a:hover{
     color: blue;
 }
 #show, #hide{
-    text-align: center;
+    text-align: left;
     font-size: 2.5rem;
     color:black;
 }
@@ -51,56 +53,52 @@ nav ul li a:hover{
     min-height: 100vh;
     width: 100%;
     align-items: center;
-    padding-top: 4rem;
-    color:lightblue;
+    padding-top: 5rem;
+    color:rgb(202, 217, 223);
 }
 .head{
-    padding: 1rem;
-    margin-bottom: 1rem;
+    padding: 2rem ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .head p{
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.9rem;
+    font-family: 'Tangerine', cursive;
 }
 .head h1{
     text-align: center;
-    font-size: 2.5rem;
-    letter-spacing: 2px;
-    letter-spacing: 5px;
-    font-weight: 500;
-    padding: 0rem .5rem;
+    font-size: 3rem;
     border-radius: 10px;
     box-shadow: 0px 0px 20px lightblue;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.head h6{
+    margin-bottom: 10px;
 }
 .head small{
     font-style: italic;
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-align: center;
+    font-family: 'Tangerine', cursive;
+}
+.head h5{
+    text-align: center;
+    font-family: 'Tangerine', cursive;
+    font-size: 1.5rem;
 }
 .a{
     margin-left: 3rem;
     text-align: center;
 }
-
-.main{
-    display: flex;
-    gap: 2rem;
-}
 .info{
     padding: 0 3rem;
 }
-.info h1{
-    text-align: center;
-    font-size: 2rem;
-
-}
-.info h3{
-    margin-bottom: 3rem;
-    text-align: center;
-    font-weight: 100;
-    font-style: italic;
-}
 .info h2{
+    text-align: center;
     font-size: 2rem;
     font-weight: 200;
 }
@@ -214,7 +212,7 @@ footer p{
     border-radius: 10px;
     min-height: 10rem;
     text-align: center;
-    background-color: rgba(0, 17, 255, 0.479);
+    /*background-color: rgba(0, 17, 255, 0.479);*/
     padding: .5rem;
 }
 .ad h1{
@@ -237,6 +235,13 @@ footer p{
     border: 1px solid lightblue;
     border-radius: 10px;
 }
+.up:hover {
+    background-color: white;
+}
+.up:hover a{
+    color: black;
+}
+
 .up a{
     font-size: 2rem;
     font-weight: 500;
@@ -257,6 +262,7 @@ footer p{
         justify-content: space-between;
         align-items: center;
         flex-direction: row;
+        height: 125px;
     }
     nav ul li{
         display: flex;
@@ -306,15 +312,14 @@ footer p{
         border-radius: 0 0 10px 10px;
         width: 100%;
         left: 0;
+        right: 0;
+        margin-top:-10px;
     }
     nav ul li{
         margin-bottom: 20px;
     }
     nav ul li a{
         color: white;
-    }
-    .main{
-        flex-direction: column;
     }
     #pic{
         width: 100%;
