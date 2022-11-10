@@ -70,11 +70,19 @@ nav ul li a:hover{
 .head h1{
     text-align: center;
     font-size: 3rem;
-    border-radius: 10px;
-    box-shadow: 0px 0px 20px lightblue;
     font-family: 'Teko', sans-serif;
     letter-spacing: 2px;
     font-weight: 700;
+}
+.head h1::after,
+.head h1::before{
+    margin: 5px;
+    content: '';
+    background-color: rgb(238, 239, 245);
+    height: 2px;
+    display: block;
+    width: 100%;
+    position: relative;
 }
 .head h6{
     margin-bottom: 10px;
