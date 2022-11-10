@@ -255,6 +255,19 @@ footer p{
     color:orange;
     font-size: 1rem;
 }
+.enroll{
+    float: right;
+    width: 100px;
+    text-align: center;
+    font-size: 1.1rem;
+    border: 1px solid brown;
+    border-radius: 10px;
+    font-weight: 500;
+    color: brown;
+}
+.enroll:active{
+    background-color: black;
+}
 
 
 
