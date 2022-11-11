@@ -221,7 +221,7 @@ footer a{
 .fa-youtube:hover{
     color: red;
 }
-.fa-square-twitter:hover,
+.fa-twitter:hover,
 .fa-facebook:hover{
     color: rgb(35, 83, 172);
 }
@@ -232,7 +232,7 @@ footer a{
     color: rgb(19, 219, 19);
 }
 .fa-envelope:hover{
-    color: white;
+    color: rgb(145, 137, 137);
 }
 
 /*------------------------------------------------------------------------------------------------*/
