@@ -5,8 +5,11 @@ let image = document.getElementById('scroll');
 let i;
 i = 0;
 let images = new Array(
-    "images/h.jpg",
     "images/hmh.jpg",
+    "images/han.jpeg",
+    "images/hold.jpeg",
+    "images/me.jpeg",
+    "images/my.jpeg",
     "images/hmh.jpeg"
 );
 let len = images.length;
@@ -32,6 +35,6 @@ function scroll() {
     image.src = images[i];
     i++;
 
-    setTimeout("scroll()", 10000);
+    setTimeout("scroll()", 2000);
 }
 
