@@ -399,6 +399,25 @@ footer a{
         flex-direction: column;
         row-gap: 0;
     }
+    .fa-youtube{
+        color: rgb(223, 41, 41);
+    }
+    .fa-twitter{
+        color: rgb(11, 84, 219);
+    }
+    .fa-facebook{
+        color: blue;
+    }
+    .fa-instagram{
+        color: rgb(218, 40, 69);
+    }
+    .fa-whatsapp{
+        color: rgb(19, 219, 19);
+    }
+    .fa-envelope{
+        color: rgb(151, 152, 153);
+    }
+    
     
     
     
