@@ -35,6 +35,6 @@ function scroll() {
     image.src = images[i];
     i++;
 
-    setTimeout("scroll()", 2000);
+    setTimeout("scroll()", 5000);
 }
 
