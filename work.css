@@ -3,6 +3,7 @@
 .vid li{
     list-style-type: disc;
     text-align: left;
+    font-size: 1.3rem;
 }
 .work{
     display: flex;
@@ -28,6 +29,9 @@ body{
 .vid{
     padding: 1rem;
 }
+.vid p{
+    font-size: 1.3rem;
+}
 
 
 .x{
@@ -43,6 +47,7 @@ body{
 .shy{
     text-align: center;
     padding: 1rem;
+    font-size: 1.3rem;
 }
 .this{
     border-radius: 10px;
