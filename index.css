@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&display=swap');
+
 header{
     display: flex;
     flex-direction: column;
@@ -178,6 +178,7 @@ footer p{
 }
 footer a{
     color: white;
+    font-family: 'Aguafina Script', cursive;
 }
 .cite{
     font-style: italic;

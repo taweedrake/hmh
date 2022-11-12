@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -10,8 +11,9 @@
     transition: .6s ease-in-out;
 }
 a{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: rgb(11, 153, 201);
+    
 }
 button{
     cursor: pointer;
