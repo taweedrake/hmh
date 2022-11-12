@@ -1,0 +1,118 @@
+@import "style.css";
+@import "index.css";
+.vid li{
+    list-style-type: disc;
+    text-align: left;
+}
+.work{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+body{
+    background-color: bisque;
+}
+.work >*{
+    width: 100%;
+}
+.hilda{
+    border-radius: 10px;
+}
+.parent{
+    display: flex;
+    gap: 2rem;
+    align-self: center;
+    width: 90%;
+    margin: auto;
+}
+.vid{
+    padding: 1rem;
+}
+
+
+.x{
+    display: flex;
+    padding: 1rem;
+    margin-bottom: 10px;
+}
+.x :nth-child(2){
+    text-align: center;
+}
+
+
+.shy{
+    text-align: center;
+}
+
+@media (max-width:799px){
+    .hilda{
+        width: 100%;
+    }
+    .work{
+        flex-direction: column;
+    }
+    .par{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+    }
+    .par >*{
+        background-color: gold;
+        width: 120px;
+        padding: .2rem;
+        border-radius: 10px;
+        text-align: center;
+        height: 50px;
+    }
+    .x{
+        flex-direction:column;
+        gap: 2rem;
+    }
+    .this{
+        width: 100%;
+    }
+    
+    
+}
+@media (min-width:800px){
+    .hilda{
+        width: 400px;
+    }
+    .par{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 5rem;
+    }
+    .par >*{
+        background-color: gold;
+        width: 200px;
+        padding: 1rem;
+        border-radius: 10px;
+        text-align: center;
+        height: 80px;
+
+    }
+    .this{
+        width: 300px;
+    }
+    .x{
+        display: flex;
+        align-items: center;
+    }
+    .x >*{
+        width: 100%;
+    }
+    .x h1{
+        text-align: right;
+        padding: 0 2rem;
+        font-size: 2.4rem;
+    }
+
+    
+    
+
+}
