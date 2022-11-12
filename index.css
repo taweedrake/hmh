@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
-
 header{
     display: flex;
     flex-direction: column;
@@ -30,6 +29,7 @@ nav ul li a{
     transition: .6s ease-in-out;
     color: white;
     font-size: 2rem;
+
 }
 nav ul li a:hover{
     background-color: white;

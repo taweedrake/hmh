@@ -38,3 +38,7 @@ function scroll() {
     setTimeout("scroll()", 5000);
 }
 
+function know() {
+    alert("Welcome!!\nThis site is a dedicated work of Tawee Drake,\n (still under construction)")
+}
+
