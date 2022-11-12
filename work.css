@@ -73,6 +73,10 @@ body{
     .this{
         width: 100%;
     }
+    .x h1{
+        text-align: center;
+        font-size: 2rem;
+    }
     
     
 }
