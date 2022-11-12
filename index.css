@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&display=swap');
 header{
     display: flex;
     flex-direction: column;
@@ -246,7 +247,7 @@ footer a{
 }
 .ad h1{
     font-size: 2.5rem;
-    font-family: 'Mr Dafoe', cursive;
+    font-family: 'Aguafina Script', cursive;
     color: wheat;
     font-weight: 500;
 }
