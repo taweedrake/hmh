@@ -1,0 +1,16 @@
+@import "style.css";
+@import "index.css";
+
+*{
+    text-align: center;
+}
+body{
+    background-color: darkcyan;
+}
+h1{
+    color: white;
+    margin-top: 20%;
+}
+a{
+    color: gold;
+}
