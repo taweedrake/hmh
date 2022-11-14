@@ -39,6 +39,6 @@ function scroll() {
 }
 
 function know() {
-    //alert("Welcome!!\nThis site is a dedicated work of Tawee Drake,\n (still under construction)")
+    alert("Welcome!!\nThis site is a dedicated work of Tawee Drake,\n (still under construction)")
 }
 
